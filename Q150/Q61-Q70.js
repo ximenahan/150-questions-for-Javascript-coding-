@@ -1,16 +1,3 @@
-/*Q60: ask the user how many states are there in USA, and if they answer 51 tell them you're right and you're so smart respectively. 
-And if they answer wrong tell them you are wrong*/
-
-let question = prompt("How many states are there in United States?", "51");
-
-if (question == 51){
-  alert("you're right");
-  alert("you're so smart");
-} else {
-  alert("you're wrong");
-}
-
-
 //Q61: same as Q60 but there is no eqality check allowed in the variable
 let question = prompt("How many states are there in United States?", "51");
 let condition = (question == 51);
