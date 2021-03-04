@@ -44,21 +44,15 @@ let question = prompt("Enter a value from 0-2", "");
 
 switch (question) {
   case "0":
-    alert(0);
-    break;
-
   case "1":
-    alert(1);
-    break;
-
   case "2":
-    alert(2);
+    alert(question);
+    alert("you're in the range")
     break;
 
   default:
   alert("It is out of the range");
 }
-//don't forget that the value is strict equality check, the type matters(unlike the scenario in Q81.5 )
 
 
 
