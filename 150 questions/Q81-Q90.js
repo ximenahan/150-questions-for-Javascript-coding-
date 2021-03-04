@@ -19,6 +19,8 @@ switch (question) {
 }
 //don't forget that the value is strict equality check, the type matters(unlike the scenario in Q81.5 )
 
+
+
 //Q81.5: use "if" to ask the user to enter a value from 0–2. There are four case, it is 0, 1, 2, and it is out of the range
 
 let question = prompt("Enter a value from 0-2", "");
@@ -32,6 +34,9 @@ if (question == 0) {
 } else {
   alert("It is out of range");
 }
+
+
+
 
 
 //Q82: same as Q81, but use grouped cases to show more alerts for more of the cases
@@ -57,12 +62,17 @@ switch (question) {
 
 
 
+
+
 //Q83: decalre a function with an alert and call it out
 function declareAlert() {
   alert("I am the function with an alert!");
 }
 
 declareAlert();
+
+
+
 
 //Q84: show A for apple, B for ball, C for cat in one function
 function alphabetExample() {
@@ -72,6 +82,7 @@ function alphabetExample() {
 }
 
 alphabetExample();
+
 
 
 
@@ -120,6 +131,10 @@ if (userPermission) {
 ageCheck();
 
 
+
+
+
+
 //Q86: use both function declaration and function expression for Q83
 //function declaration
 function declareAlert1() {
@@ -135,6 +150,9 @@ let declareAlert2 = function() {
 
 declareAlert2();
 
+
+
+
 //Q86.5: write the funciton with two parameters as the template which stores in the local, then call the template using two different examples
 function template(parameters1, parameters2) {
   alert(parameters1 + " comes from " + parameters2);
@@ -143,6 +161,10 @@ function template(parameters1, parameters2) {
 template("Ximena", "Tokyo");
 template("Esperanza", "Madrid");
 //the given values are copied to local parameters1 and parameters2. Then the function uses them.
+
+
+
+
 
 /*Q87: using callback function, Ask if you are under 18, you are under 18 for yes, and you cancel the question for no. 
 Use both function expression and fuction declaration. Also write another without the callback function. It would be like the extension of confirm*/
@@ -208,6 +230,9 @@ askUser(
   function() { alert("Your're under 18"); },
   function() { alert("you cancel the question"); }
 );
+
+
+
 
 
 //Q88: set an example to show the differenc between the function expression and the function declaration
